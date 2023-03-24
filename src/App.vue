@@ -4,7 +4,7 @@
     <AddButtonComponent/>
   </div>
 </template>
- re
+
 <script setup>
 import StopWatchComponent from '@/components/StopWatchComponent'
 import AddButtonComponent from '@/components/Buttons/AddButtonComponent'

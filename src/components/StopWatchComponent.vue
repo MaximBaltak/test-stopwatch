@@ -73,7 +73,8 @@ const toStopWatch = () => {
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 53px;
   }
 }
 </style>
