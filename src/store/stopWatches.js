@@ -9,9 +9,9 @@ export const useStopWatchesStore = defineStore('stopwatch', {
       const stopWatch = {
         id: Math.floor(Math.random() * 100000),
         text: '00',
-        seconds: 54,
+        seconds: 0,
         minutes: 0,
-        hours: 10,
+        hours: 0,
         isActive: false,
         isPause: false
       }
