@@ -75,8 +75,10 @@ export const useStopWatchesStore = defineStore('stopwatch', {
         if (id === stopWatch.id) {
           stopWatch.isActive = false
           stopWatch.isPause = false
-          stopWatch.text = '0'
+          stopWatch.text = '00'
           stopWatch.seconds = 0
+          stopWatch.minutes = 0
+          stopWatch.hours = 0
         }
       })
     }
